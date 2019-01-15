@@ -1,13 +1,13 @@
 {
-    "name": "c2498168786/auto-test",
+    "name": "kangshifu/auto-test",
     "description": "基于swagger-php的自动化测试",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "arrayhua",
-            "email": "2498168786@qq.com"
+            "name": "kangshifu",
+            "email": "myfey@qq.com"
         }
     ],
     "autoload": {
