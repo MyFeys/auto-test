@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+function p($data){
+    echo '<pre>';
+    print_r($data);exit;
+}
+
+define('ROOT_PATH', __DIR__);
+define('CONFIG_PATH', __DIR__ .'/config');
+define('UNDEFINED', '{SWAGGER-PHP-UNDEFINED-46EC-07AB32D2-D50C}');
+
+require ROOT_PATH .'/vendor/autoload.php';
+
+// 启动
+\AutoTest\Application::run();
